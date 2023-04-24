@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "postinstall": "yarn build"
+    "build": "tsc"
   },
   "dependencies": {
     "@google-cloud/storage": "^6.9.5",
