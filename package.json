@@ -1,6 +1,6 @@
 {
   "name": "@alexalexandrescu/strapi-provider-upload-google-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strapi Google Cloud Storage Provider",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,6 +21,6 @@
   },
   "packageManager": "yarn@3.5.0",
   "publishConfig": {
-    "@alexalexandrescu:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
