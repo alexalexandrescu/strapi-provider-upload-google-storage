@@ -4,6 +4,7 @@
   "description": "Strapi Google Cloud Storage Provider",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/alexalexandrescu/strapi-provider-upload-google-storage",
   "scripts": {
     "build": "tsc",
     "test": "echo \"no test specified\" && exit 0"
