@@ -1,0 +1,19 @@
+{
+  "name": "strapi-provider-upload-google-storage",
+  "version": "1.0.0",
+  "description": "Strapi Google Cloud Storage Provider",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "yarn build"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.5",
+    "@types/node": "^18.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}
