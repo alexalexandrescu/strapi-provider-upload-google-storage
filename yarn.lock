@@ -5,6 +5,16 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@alexalexandrescu/strapi-provider-upload-google-storage@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@alexalexandrescu/strapi-provider-upload-google-storage@workspace:."
+  dependencies:
+    "@google-cloud/storage": ^6.9.5
+    "@types/node": ^18.16.0
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@google-cloud/paginator@npm:^3.0.7":
   version: 3.0.7
   resolution: "@google-cloud/paginator@npm:3.0.7"
@@ -442,16 +452,6 @@ __metadata:
   checksum: b99c4b41fdd67a6aaf280fcd05e9ffb0813654894223afb78a31f14a19ad220bba8aba1cb14eddce1fcfb037155fe6de4e861784eb434f7d11ed58d1e70dd491
   languageName: node
   linkType: hard
-
-"strapi-provider-upload-google-storage@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "strapi-provider-upload-google-storage@workspace:."
-  dependencies:
-    "@google-cloud/storage": ^6.9.5
-    "@types/node": ^18.16.0
-    typescript: ^5.0.4
-  languageName: unknown
-  linkType: soft
 
 "stream-events@npm:^1.0.5":
   version: 1.0.5
